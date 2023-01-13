@@ -12,3 +12,12 @@
     right: 1em;
     gap: 1em;
 }
+@media screen and (max-device-width:500px)
+{
+    .navigation{
+        font-size: 1em;
+    }
+    .navbar{
+        font-size: 0.9em;
+    }
+}

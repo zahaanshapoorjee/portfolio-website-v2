@@ -20,7 +20,7 @@ export default function SkillList()
                      <div className="skillListItems"><i className="devicon-css3-plain" id='skill-icon'></i><p className='skill-text'>CSS</p></div>
                      <div className="skillListItems"><i className="devicon-javascript-plain" id='skill-icon'></i><p className='skill-text'>JavaScript</p></div>
                      <div className="skillListItems"><i className="devicon-react-plain" id='skill-icon'></i><p className='skill-text'>React.js</p></div>
-                     <div className="skillListItems"><i className="devicon-express-original" id='skill-icon'></i><p className='skill-text'>Express.js</p></div>
+                     <div className="skillListItems"><i className="devicon-express-original" id='skill-icon'></i><p className='skill-text'>Express</p></div>
                      <div className="skillListItems"><i className="devicon-nodejs-plain" id='skill-icon'></i><p className='skill-text'>Node.js</p></div>
                      <div className="skillListItems"><i className="devicon-mongodb-plain" id='skill-icon'></i><p className='skill-text'>MongoDB</p></div>
                      <div className="skillListItems"><i className="devicon-github-original" id='skill-icon'></i><p className='skill-text'>GitHub</p></div>

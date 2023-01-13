@@ -22,7 +22,7 @@ export default function Header() {
   return (
     <motion.div initial={{opacity:0, y:"-100vh"}} animate={{opacity:1,y:0}} transition={{duration:2.5}}>
       <Navbar bg = 'dark' variant='dark' className='navbar'>
-        <Navbar.Brand style={styles.brand} href='\'>Zahaan Shapoorjee</Navbar.Brand>
+        <Navbar.Brand className='brand' style={styles.brand} href='\'>Zahaan Shapoorjee</Navbar.Brand>
         <Container>
         <Nav className='navigation' >
           <Nav.Link style={styles.navigation} href='\skills'>Skills</Nav.Link>

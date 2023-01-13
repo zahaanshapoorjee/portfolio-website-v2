@@ -33,3 +33,36 @@
 {   margin: 0;
     font-size: 2em;
 }
+
+@media screen and (max-device-width:500px)
+{
+    #skill-icon{
+    font-size: 1em;
+    margin: 0;}
+    .skill-text{
+    margin: 0;
+    font-size: 1em;
+    }
+.skills-grid
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 1em;
+    column-gap: 2em;
+    border: 2px solid white;
+    padding: 3em;
+    border-radius: 1em;
+    margin: 1em;
+    max-width: 60vw;
+    overflow:hidden;
+    margin-bottom: 0;
+    max-height: 60vh;
+    margin-bottom: 30%;
+}
+.skills-header
+{
+    margin-top: 13vh;
+    font-size: 2em;
+}
+
+}

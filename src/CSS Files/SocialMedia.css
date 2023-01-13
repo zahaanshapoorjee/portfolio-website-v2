@@ -57,3 +57,14 @@
     width: 30vw;
     bottom: 1vh;
 }
+@media screen and (max-device-width:500px)
+{
+   #socialIcons
+   {
+      font-size: 0.8em;
+   }
+   .navigation
+   {
+      margin-left: 1em;
+   }
+}

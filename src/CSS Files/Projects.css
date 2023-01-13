@@ -19,6 +19,7 @@
     width: 18vw;
     border: 2px solid white;
     border-radius: 1em;
+    margin-top: 0;
 }
 .projects-header
 {
@@ -39,6 +40,7 @@
     flex-direction: column;
     margin-right: auto;
     align-items: center ;
+    justify-content: center;
 }
 .thumbnail-header
 {
@@ -48,4 +50,39 @@
     margin-bottom: 0;
     font-size: 1em;
     text-decoration: underline;
+}
+@media screen and (max-device-width:500px)
+{
+    .projects-header
+    {
+        margin-top: 10vh;
+        font-size: 2em;
+        margin-bottom: 0;
+    }
+    .project-image
+    {
+        height: 10vh;
+        width: 15vw;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .project-info
+    {
+        font-size: 0.4em;
+    }
+    .projects-container
+    {
+    color:white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr; 
+    column-gap: 5vw;
+    row-gap: 0;
+    height: 55vh;
+    margin-bottom: 5vh;
+    }
+    .thumbnail-header
+    {
+        font-size: 0.5em;
+        
+    }
 }

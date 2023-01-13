@@ -73,10 +73,10 @@
 }
 .contactme-form-submit-button
 {
-    height: 3vh;
-    width: 5vw;
+    height: 5vh;
+    width: 8vw;
     margin-top: 2vh;
-    background-image: linear-gradient(to right,#ff0152, #753a88,#185a9d,#2600ff98);
+    background-image: linear-gradient(to left,#ff0152, #753a88,#185a9d,#2600ff98);
     background-size: 400%;
     background-position: left;
     animation:gradientAnimation 15s ease infinite ;
@@ -86,4 +86,38 @@
     cursor:pointer;
     border-radius: 1em;
     border-color: white;
+}
+
+@media screen and (max-device-width:500px)
+{
+    .contactme-header
+    {
+        margin-top: 10vh;
+        font-size: 2em;
+    }
+    .contactme-form
+    {
+        height: 55vh;
+        width: 75vw;
+        font-size: 1em;
+        margin-bottom: 5vh;
+    }
+    .contactme-form-submit-button
+    {
+        width: 15vw;
+    }
+    .message-input
+    {
+        width: 60vw;
+    }
+    .username-input
+    {
+        text-align: center;
+        width: 30vw;
+    }
+    .emailid-input
+    {
+        text-align: center;
+        width: 40vw;
+    }
 }

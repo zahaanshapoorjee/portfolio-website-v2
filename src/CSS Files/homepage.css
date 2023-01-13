@@ -21,3 +21,16 @@
 .info{
     margin: 0;
 }
+@media screen and (max-device-width:500px)
+{
+    .Typewriter{
+        margin-top: 20vh;
+        font-size: 2em;
+    }
+    #myInfo{
+        font-size: 0.8em;
+        position: relative;
+        right: 5vw;
+        margin-bottom: 50%;
+    }
+}
