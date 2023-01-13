@@ -23,7 +23,7 @@ export default function Homepage()
                 <p class="info">Hi! My name is Zahaan Shapoorjee, and I am an aspiring software developer currently studying at Ashoka University.</p>
             </motion.div>
             <motion.div initial={{opacity:0, x:'-100vh'}}animate={{opacity:1, x:0}}transition = {{duration: 2}}>
-            <p class="info">I love playing football, video games, and listening to music.</p>
+            <p class="info">I love playing football, video games, and playing the Piano.</p>
             </motion.div>
             <motion.div initial={{opacity:0, x:'-100vh'}}animate={{opacity:1, x:0}}transition = {{duration: 3}}>
             <p class="info">I am interested in Cyber Security, Software Development, and Web Development.</p>
