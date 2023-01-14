@@ -2,6 +2,7 @@ import React, {useRef, useState} from "react";
 import '../CSS Files/ContactMe.css';
 import SocialMedia from "./SocialMedia";
 import {motion} from "framer-motion"
+import axios from "axios";
 export default function Contact()
 {
     const form = useRef();
@@ -10,6 +11,9 @@ export default function Contact()
     const sendEmail=(e)=>
     {
         e.preventDefault();
+        axios.post("https://z69.onrender.com/emails", info).then((response)=>{
+            console.log(response)
+          })
         alert('Message Sent Successfully!');
         setInfo({name:'', email:'', message:''});
         form.current.reset();
